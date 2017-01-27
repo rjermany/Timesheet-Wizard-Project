@@ -6,36 +6,57 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<script src="https://use.fontawesome.com/15ae21cfc9.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-		<title>SSE Timesheet Wizard - v0.1a</title>
+		<title>SSE Timesheet Wizard - v0.1a - Monday </title>
 	</head>
 
 	<body>
 		<div class="mainContainer" align="center">
-			<img id="sse-logo" src="images\sse-logo.png" align="right">
-			<div id="title-bar" align="left">
-				<h1>Timesheet Wizard</h1>
-
-			</div>
 			
-			<div id="body-div">
-				<h2>Please Select: Day of the Week</h2>
+			
+			<div id="title-bar" align="center">
+				<img id="sse-logo" src="images\sse-header.png" align="right">
+				<div id="back-button">
+					<a href="index.html"><button class="monday">Back</button></a>
+				</div>
+			</div>
+
+			
+			
+			<div id="body-div-days">
+				<h2>Please enter the following Info:</h2>
+
+				<div class="form-div1" align="right">
+					<form>
+						Job Location: &nbsp;<input type="text" name="location"><br><br>
+						Postcode: &nbsp;<input type="text" name="postcode"><br><br>
+						Arrival Time: &nbsp;<input type="text" name="arrivaltime"><br><br>
+						Lunch Time (30 mins): &nbsp;<input type="text" name="lunchtime"><br><br>
+						Departure Time: &nbsp;<input type="text" name="leavetime">
+					</form>
+				</div>
+				<div class="form-div2" align="right">
+					<form>
+						Radius Band (mi): &nbsp;<input type="text" name="radius"><br><br>
+						Actual Mileage: &nbsp;<input type="text" name="mileage"><br><br>
+						
+					</form>
+					<div class="radius-link"><h3><a href="images/range-rings.png" target="_blank">Click to view Radius Rings</a></h3></div>
+				</div>
 				<br>
 				<br>
-				<div class="dropdown" align="center">
-  					<button class="monday"><a href="#">Monday</a></button>
-  					<button class="tuesday"><a href="#">Tuesday</a></button>
-  					<button class="wednesday"><a href="#">Wednesday</a></button>
-  					<button class="thursday"><a href="#">Thursday</a></button>
-  					<button class="friday"><a href="#">Friday</a></button><br>
-  					<button class="saturday"><a href="#">Saturday</a></button>
-  					<button class="sunday"><a href="#">Sunday</a></button>
+				
   					
+				
+				<div id="next-button">
+					<a href="submit.html"><button class="nextbutton" styles="float: right; align: right;">Done</button></a>
 				</div>
 
 
 			</div>
-			
+			<img id="sse-swoosh" src="images/sse-swoosh.png" align="center">
 		</div>
 
 

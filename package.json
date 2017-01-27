@@ -1,7 +1,6 @@
 {
-  "name": "Application",
+  "name": "timesheet-app",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -10,5 +9,19 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^1.4.15"
-  }
+  },
+  "dependencies": {
+    "appjs": "^0.0.20",
+    "mime": "^1.2.5",
+    "appjs-darwin": "^0.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjermany/Timesheet-Wizard-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rjermany/Timesheet-Wizard-Project/issues"
+  },
+  "homepage": "https://github.com/rjermany/Timesheet-Wizard-Project#readme",
+  "description": ""
 }
